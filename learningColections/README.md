@@ -1,10 +1,7 @@
 # Overview
 
-"Hello World" is an example of how I will begin learning the Java language.
+After studying the Java language for a while, I'm putting my understanding of collections into practice. This will help me understand the behavior of Java code and perform some debugging to track the process.
 
-I will start by using simple commands to see how the Java language behaves.
-
-In addition, I will study some documentation to understand the processes.
 
 # Development Environment
 

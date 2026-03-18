@@ -1,10 +1,6 @@
 # Overview
 
-"Hello World" is an example of how I will begin learning the Java language.
-
-I will start by using simple commands to see how the Java language behaves.
-
-In addition, I will study some documentation to understand the processes.
+Now that I have a better understanding of object-oriented programming concepts and know that Java is a highly typed language (a declared variable does not change its type during the course of the program), it's time to understand how I can create classes and methods.
 
 # Development Environment
 
