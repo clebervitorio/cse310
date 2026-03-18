@@ -17,7 +17,7 @@ Since I'm learning Java, we'll be using Java with Spring. Below are some useful 
 
 # Transfer Endpoint
 
-# You can implement whatever you find most convenient, but we will focus only on the transfer flow between two users. The implementation must follow the contract below.
+You can implement whatever you find most convenient, but we will focus only on the transfer flow between two users. The implementation must follow the contract below.
 
 POST /transfer
 Content-Type: application/json
