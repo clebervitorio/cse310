@@ -2,7 +2,7 @@
 
 First, I'd like to explain what this PicPay Backend Challenge is. PicPay is a payment platform. The interesting thing about this challenge isn't limited to a single programming language; the company uses the challenge process to understand how developers comprehend certain aspects of object-oriented programming at Junior, Mid-level, and Senior levels, in any language.
 
-Since I'm learning Java, we'll be using Java with Spring. Below are some useful materials in Java and PHP, as well as other information. Some documentation was suggested by the challenge, and others I used to understand what I'll be doing.
+Since I'm learning Java, we'll be using Java with Spring. Below are some useful materials in Java, as well as other information. Some documentation was suggested by the challenge, and others I used to understand what I'll be doing.
 
 # Simplified PicPay Project Requirements with important business rules for the operation of the Simplified PicPay:
 
@@ -41,6 +41,8 @@ For further reference, please consider the following sections:
 ### Guides
 The following guides illustrate how to use some features concretely:
 
+* [github.com](https://github.com/microsoft/vscode-java-dependency#manage-dependencies)
+* [oracle.com](https://www.oracle.com/java/technologies/downloads/)
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
