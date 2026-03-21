@@ -3,7 +3,6 @@
 In this part, I'm understanding and following the steps below:
 
 (var) is a declaration of variable mutable
-
 Variable typing
 (val) is a declaration of variable immutable
 Primitives types Double, Byte, Short, Int, Long, Float, Boolean, integrator = 1_200_000L
