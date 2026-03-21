@@ -2,6 +2,7 @@
 
 In this part, I'm understanding and following the steps below:
 
+```
 (var) is a declaration of variable mutable
 Variable typing
 (val) is a declaration of variable immutable
@@ -16,6 +17,7 @@ Using /n
 Using triple quotation marks ( """ )
 Conditions
 String compare
+```
 
 # Development Environment
 
