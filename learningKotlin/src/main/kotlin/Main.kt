@@ -158,4 +158,119 @@ fun main() {
     val quantityOfCharactersThree = otherNewProductTwo?.length ?: 0
     println(quantityOfCharactersThree)
 
+    helloWorld()
+
+    val responseNumber = sumNumber() //call function
+
+    // return responseNumber of function
+
+    println(responseNumber)
+
+    val responseNumber1 = sumNumber1() //call function
+
+    // without return responseNumber1
+
+    print(responseNumber1)
+
+    // Calling function into the function
+
+    helloWorld1()
+
+    helloWorld2()
+
+    verifyAge(16)
+
+// function with arguments
+    verifyUser(18, "Bruce", isAdmin = false)
+    verifyUser(14, "James", isAdmin = true)
+    verifyUser(24, "William",true)
+
+// function - high load of function
+    verifyLogin(18, "Bruce", isAdmin = false)
+    verifyLogin(14, "James", isAdmin = true)
+    verifyLogin(24, "William")
+
+// function - high load of function
+    registerUser(18, "Bruce")
+    registerUser(22, "William", true)
+    registerUser(26)
+    registerUser(30, "David", false)
+
+//    val resultSum = sumUser(26, 35)
+    val resultMultiply = multiplyUser(30.45, 45.73)
+
+    println("The result of sum is: ${sumUser(26, 35)}")
+    println("The result of multiply is $resultMultiply")
+
+}
+
+// functions - code blocks reusable | optimizer |
+// Structure - declaration | body | parameter
+fun helloWorld(){
+    println("Hello")
+    println("World")
+    println(2 + 3)
+}
+
+//Function with return result
+fun sumNumber(): Int {
+    return 2 + 3
+}
+
+//Function without return result (double, string, long, int, etc)
+fun sumNumber1(): Unit {
+    val responseNumber1 = 2 + 3
+    println("I am doing one operation with the number 2 and the number 3 is: $responseNumber1")
+}
+
+// Scope of function - Function into the function
+fun helloWorld1(){
+    println("Hello World")
+    fun substraction1() {
+       println(2 + 4)
+    }
+}
+
+// Scope of function - body in line
+fun helloWorld2() = println("Hello World")
+
+fun verifyAge(age: Int) {
+    if (age > 18) {
+        println("it can conduct")
+    } else {
+        println("it cannot conduct")
+    }
+}
+// fun verifyAge - This function is equal the function above.
+// (age: Int) = if (age > 18) println("it can conduct") else println("it cannot conduct")
+
+//Named Parameters
+fun verifyUser(ageUser: Int, nameUser: String, isAdmin: Boolean) {
+    println("my age is $ageUser and my name is $nameUser, and I am admin: $isAdmin")
+    if (ageUser > 18) {
+        println("it can conduct")
+    } else {
+        println("it cannot conduct")
+    }
+}
+
+//High Load of function or High Load of Method
+fun verifyLogin(ageUser: Int, nameUser: String, isAdmin: Boolean) {
+    println("my age is $ageUser and my name is $nameUser, and I am admin: $isAdmin")
+}
+
+fun verifyLogin(ageUser: Int, nameUser: String) {
+    println("my age is $ageUser and my name is $nameUser")
+}
+
+fun registerUser(ageUser: Int, nameUser: String = "Unknown", isAdmin: Boolean = false) {
+    println("Register of user with age is $ageUser, name: $nameUser and admin: $isAdmin")
+}
+
+fun sumUser(x: Int, y: Int) : Int {
+    return x + y
+}
+
+fun multiplyUser(x: Double, y: Double) : Double {
+    return x * y
 }
