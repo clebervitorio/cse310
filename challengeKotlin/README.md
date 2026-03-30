@@ -1,21 +1,10 @@
 # Overview
 
-In this part, I'm understanding and following the steps below:
+The objective of this task is to create an encryption where an English text is sent, and we will have to use the rules from HackerRank to test if our solution is correct or not.
 
-*(var) is a declaration of variable mutable
-*Variable typing
-*(val) is a declaration of variable immutable
-*Primitives types Double, Byte, Short, Int, Long, Float, Boolean, integrator = 1_200_000L
-*Typing conversion
-*Logics operators ( + - / * )
-*Concatenating ( + )
-*Boolean ( true or false ) | ( 1 - 0 )
-*Variable state
-*Formating text
-*Using /n
-*Using triple quotation marks ( """ )
-*Conditions
-*String compare
+I accepted this challenge so that I can test solutions in both Java and Kotlin to solve challenges that will give me more confidence in using the language. 
+
+So let's move forward with this challenge!!
 
 # Development Environment
 
@@ -23,6 +12,7 @@ Kotlin
 
 # Useful Websites
 
+* [Hackerrank](https://www.hackerrank.com/challenges/encryption/problem?isFullScreen=false)
 * [Kotlin.docs](https://kotlinlang.org/docs/home.html)
 * [Kotlin.install](https://kotlinlang.org/docs/getting-started.html)
 * [Kotlin.Android](https://kotlinlang.org/docs/android-overview.html)
