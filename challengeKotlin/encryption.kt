@@ -36,8 +36,7 @@ fun encryption(phrase: String): String {
     }
     val wordsFormed = mutableListOf<String>()
     for(i in 0 until quantityLines){
-        val wordFormed = phraseWithoutSpace.substring(quantityColumns * i, Math.min
-(quantityColumns * (i + 1), phraseCount))
+        val wordFormed = phraseWithoutSpace.substring(quantityColumns * i, Math.min(quantityColumns * (i + 1), phraseCount))
         wordsFormed.add(wordFormed)
     }
     var phraseCryptograph = ""
